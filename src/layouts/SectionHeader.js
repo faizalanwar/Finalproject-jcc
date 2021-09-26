@@ -23,7 +23,6 @@ const SectionHeader = () => {
 
 
   return (
-    // <Header className="layout-content-header">
     <div>
       {
         user ?
