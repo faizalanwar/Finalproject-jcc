@@ -6,9 +6,6 @@ import {
   Input,
   Typography
 } from "antd";
-import {
-  LeftOutlined
-} from '@ant-design/icons';
 
 import { UserContext } from '../contexts/UserContext';
 
@@ -59,28 +56,17 @@ const Register = () => {
     })
   }
 
-  const handleButton = (event) => {
-    history.push('/')
-  }
+  
 
   return (
     <>
       <div
         className="register-form-container"
-      ><div>
-          <Button
-            className="register-form-return"
-            onClick={handleButton}
-            size="large"
-          >
-            <LeftOutlined />
-          </Button>
-          <Title className="register-form-title">Register</Title>
-        </div>
+      >
         <form
           className="register-form"
           onSubmit={handleSubmit}
-        >
+        > <Title className="register-form-title">Register</Title>
           <div className="register-form-input">
             <label>Name: </label>
             <Input

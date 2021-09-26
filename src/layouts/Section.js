@@ -14,6 +14,7 @@ import GameView from '../pages/GameView';
 import GamesForm from '../pages/GamesForm';
 import Register from '../pages/Register';
 import Password from '../pages/Password';
+import About from '../pages/About';
 
 const Section = () => {
   return (
@@ -54,6 +55,9 @@ const Section = () => {
         </Route>
         <Route exact path="/change-password">
           <Password />
+        </Route>
+        <Route exact path="/about">
+          <About />
         </Route>
       </Switch>
     </>

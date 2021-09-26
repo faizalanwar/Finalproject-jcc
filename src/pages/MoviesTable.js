@@ -46,11 +46,11 @@ const MoviesTable = () => {
 
   return (
     <div className="home-tables-movies">
-      <Title level={3}>Movie List</Title>
+      <Title level={3}>Movie Data</Title>
       <Table
         className="movies-table"
         dataSource={movies}
-        pagination={{ pageSize: 5 }}
+        pagination={{ pageSize: 10 }}
       >
         <Column title="ID" dataIndex="id" key="id" />
         <Column title="Title" dataIndex="title" key="title" />

@@ -6,7 +6,6 @@ import {
   Input,
   Typography
 } from 'antd';
-
 import { UserContext } from '../contexts/UserContext';
 
 const { Title } = Typography;
@@ -131,12 +130,13 @@ const MoviesForm = () => {
 
   return (
     <div className="movies-form-container">
-      <Title>Movie Form</Title>
+      <Title>Add Movie</Title>
+      
       <Button
         className="movies-form-return-btn"
         onClick={handleButton}
       >
-        Return
+        Back to Movie Data
       </Button>
       <form
         className="movies-form"

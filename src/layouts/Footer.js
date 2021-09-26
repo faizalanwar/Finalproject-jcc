@@ -9,14 +9,7 @@ class Footer extends React.Component {
     const { Footer } = Layout;
     
     return (
-      <Footer
-        className="layout-content-footer"
-        style={{
-          textAlign: 'center'
-        }}
-      >
-        Faizalanwar
-      </Footer>
+      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Faizalanwar</Footer>
     )
   }
 }

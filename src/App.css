@@ -1,6 +1,6 @@
 .home-container, .movies-container, .movie-view-container, .movies-form-container, .games-container, .game-view-container, .games-form-container, .login-form-container, .register-form-container, .pwd-form-container {
-  width: 70%;
-  padding: 20px;
+  width: 100%;
+  padding: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -9,7 +9,6 @@
 .layout-content-header {
   background: #FFF !important;
   padding: 10px 20px !important;
-  /* height: 70px !important; */
 }
 
 .layout-content-header .content-header-welcome {
@@ -38,10 +37,6 @@
   margin-bottom: 100px;
 }
 
-/**HOME**/
-
-/**LOGIN & REGISTER && PASSWORD**/
-
 .login-form-title, .login-form-return, .register-form-title, .register-form-return, .pwd-form-title, .pwd-form-return {
   display: inline-block;
 }
@@ -61,13 +56,9 @@
   margin-bottom: 15px;
 }
 
-/**LOGIN & REGISTER && PASSWORD**/
-
-/**MOVIES &  GAMES**/
-
 .movie-view-information, .movie-view-description, .movie-view-review {
   padding: 35px 30px;
-  background-color: #ececec;
+  background-color: #FFFFFF;
 }
 
 .movie-view-information-img, .movie-view-information-info, .game-view-information-img, .game-view-information-info {
@@ -76,7 +67,7 @@
 }
 
 .movie-view-information-info, .game-view-information-info {
-  width: 70%;
+  width: 100%;
   margin-left: 30px;
 }
 
@@ -91,7 +82,7 @@
 
 .movies-form, .games-form {
   background: #ececec;
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   padding: 25px;
 }
@@ -99,5 +90,3 @@
 .movies-form-input, .games-form-input {
   margin-bottom: 15px;
 }
-
-/**MOVIES & GAMES**/

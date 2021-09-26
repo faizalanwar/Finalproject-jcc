@@ -82,7 +82,7 @@ const MovieView = () => {
       <Tabs defaultActiveKey="1" onChange={callback}>
         <TabPane className="movie-view-information" tab="Information" key="1">
           <div className="movie-view-information-img">
-            <Image width="240px" src={movie.image_url}></Image>
+            <Image width="100%" src={movie.image_url}></Image>
           </div>
           <div className="movie-view-information-info">
             <Descriptions title="Movie Info">
