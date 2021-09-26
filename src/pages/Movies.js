@@ -175,7 +175,7 @@ const Movies = () => {
 
   return (
     <div className="movies-container">
-      <Title>Movie List</Title>
+      <Title>Movie Data</Title>
       <Button
         className="movies-add-btn"
         onClick={handleAdd}

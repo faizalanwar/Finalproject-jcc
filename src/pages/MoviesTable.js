@@ -25,13 +25,13 @@ const MoviesTable = () => {
           return {
             id: movie.id,
             title: movie.title,
+            image_url: movie.image_url,
             description: movie.description,
             year: movie.year,
             duration: movie.duration,
             genre: movie.genre,
             rating: movie.rating,
             review: movie.review,
-            image_url: movie.image_url
           }
         })
       )
@@ -53,6 +53,13 @@ const MoviesTable = () => {
         pagination={{ pageSize: 10 }}
       >
         <Column title="ID" dataIndex="id" key="id" />
+        <Column title="image_url" 
+          dataIndex="image_url" 
+          key="image_url" 
+          render={(image_url) => (  
+            <img alt={image_url} src={image_url} width="100px"/>
+          )}
+        />
         <Column title="Title" dataIndex="title" key="title" />
         <Column title="Year" dataIndex="year" key="year" />
         <Column title="Duration" dataIndex="duration" key="duration" />

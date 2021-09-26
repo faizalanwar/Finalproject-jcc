@@ -45,13 +45,20 @@ const GamesTable = () => {
 
   return (
     <div className="home-tables-games">
-      <Title level={3}>Game List</Title>
+      <Title level={3}>Game Data</Title>
       <Table
         className="games-table"
         dataSource={games}
-        pagination={{ pageSize: 5 }}
+        pagination={{ pageSize: 10 }}
       >
         <Column title="ID" dataIndex="id" key="id" />
+        <Column title="image_url" 
+          dataIndex="image_url" 
+          key="image_url" 
+          render={(image_url) => (  
+            <img alt={image_url} src={image_url} width="100px"/>
+          )}
+        />
         <Column title="Name" dataIndex="name" key="name" />
         <Column title="Genre" dataIndex="genre" key="genre" />
         <Column title="Release" dataIndex="release" key="release" />

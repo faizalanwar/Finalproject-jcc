@@ -128,12 +128,13 @@ const GamesForm = () => {
 
   return (
     <div className="games-form-container">
-      <Title>Game Form</Title>
+       <Title>Add Games</Title>
+      
       <Button
         className="games-form-return-btn"
         onClick={handleButton}
       >
-        Return
+        Back to Games Data
       </Button>
       <form
         className="games-form"

@@ -171,12 +171,12 @@ const Games = () => {
         games !== null &&
         (
           <div className="games-container">
-            <Title>Game List</Title>
+            <Title>Game Data</Title>
             <Button
               className="games-add-btn"
               onClick={handleAdd}
             >
-              Add New Game
+              Add Game Data
             </Button>
             <div className="games-search">
               <Input.Search

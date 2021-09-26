@@ -29,7 +29,7 @@ const SectionHeader = () => {
         user ?
           <>
             <Menu  mode='horizontal' style={LeftStyle}>
-              <Menu.Item>Selamat datang , {user.name}</Menu.Item>
+              <Menu.Item>Halo , {user.name}</Menu.Item>
             </Menu>
             <Menu  mode='horizontal' style={rightStyle}>
               {/* <Menu.Item key="1">About this App</Menu.Item> */}
